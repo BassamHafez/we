@@ -1,0 +1,380 @@
+@font-face {
+    font-family: avgard;
+    src: url(../font/AVGARDN_2.TTF);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: avgard;
+}
+a {
+    color:white !important;
+}
+.icon{
+    position:absolute;
+    top :10px;
+    left: 113px;
+}
+.input-icon{
+    position: relative;
+    width: 150px;
+    height: 20px;
+}
+
+.button-Arabic{
+    background-color: #962071;
+    font-size: 18;
+    
+    color: white;
+    
+}
+.navb{
+    background-color: #702283;
+    padding-top: 10;
+    padding-bottom:0;
+    
+}
+.nav-font{
+        font-family: avgard;
+    
+    
+
+}
+.nav-font li {
+    padding-left: 25px;
+    padding-right:25px;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none solid rgb(255,255,255);
+    letter-spacing: 1px;
+    
+}
+
+.search{
+    font-size: 24;
+   
+}
+
+.navbrand{
+    font-size: 18px;
+}
+.mywe-buttons{
+    width: 300px; 
+    background-color: whitesmoke;
+    padding: 30px;
+     position: absolute;
+     top: 50px;
+     right: 90px;  
+     opacity: 0;
+     z-index: 1;
+     transition:all 1.5s;
+    }
+    .mywe-button{
+        
+        width: 100%;
+        background-color: #962071;
+        color: white;
+        margin:auto ;
+        margin-bottom:8px ;
+        padding: 10px;
+        border-radius:8px;
+        transition: all .5s;
+    } 
+    
+    .my-we-hover:hover .mywe-buttons{
+        opacity: 1;
+    }
+    .mywe-button:hover{
+        color: black;
+    }
+    
+    
+
+.home-nav{
+    background-color: rgba(255, 255, 255, 0.8) ;  
+   
+}
+
+.home-nav ul{
+  
+   list-style: none;   
+}
+.home-nav ul li {
+padding: 22px;
+letter-spacing: 1px;
+line-height: 48px;
+ 
+ 
+}
+.home-nav ul li a{
+    color: black !important ;
+    text-decoration: none;
+}
+
+.h3-special{
+    color:rgb(150, 32, 113);
+    font-size: 23px;
+    font-weight: 300px;
+    letter-spacing: 1px;
+
+
+}
+.h3-service{
+    color:rgb(150, 32, 113);
+    letter-spacing:1px;
+    font-size: 23px;
+    font-weight: 700;
+}
+.section img{
+    border-radius: 15px;
+    width: 100%;
+}
+.cartoona{
+    width: 90%;
+    margin:auto;
+}
+.section-side{
+    position: relative;
+}
+.capture{
+    background-color: rgba(112,34,131,.8);
+   position: absolute;
+   top:0;
+   left:0;
+   right:0;
+   bottom: 0;
+   border-radius: 15px;
+   text-align: center;
+   font-weight: 800;
+   color: white;
+   opacity: 0;
+   transition: all 1s;
+}
+.capture h2{
+    margin-top: 20px ;
+}
+.capture p{
+     
+     font-size: 20px;
+}
+.capture button{
+    padding: 3px;
+    width:150px;
+    border-radius:7px;
+    background-color: #962071;
+    transition: all .5s;
+}
+.section-side:hover .capture{
+    opacity: 1;
+}
+.capture button:hover{
+    background-color:#702283;
+}
+.service{
+    transition: all .5s;
+}
+.service:hover{
+   transform: scale(1.1,1.1);
+}
+.cartoona2{
+    width: 95%;
+    margin:auto;
+}
+
+.headset-icon{
+    color: #962071;
+    font-size: 25px;
+}
+.button-div{
+    text-align: center;
+    position: relative;
+}
+.more-details{
+    background-color: #962071 ;
+    margin-top:8px;
+    width: 165px;
+    border-radius: 8px;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    transition: all .5s;
+}
+.more-details:hover{
+    background-color: #702283;
+}
+.section3{
+   background-image: url(../images/we-bouns-bg-en.png);
+   border-radius: 16px;
+   height: auto;
+}
+
+.webouns-side{
+    height: 288px;
+    margin-top: 30px;
+    color: white;    
+}
+
+.market-side{
+    background-image: url(../images/we-bouns-obj-en.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    height: 288px;
+    width: 300px;
+    margin-top: 50px;
+       
+}
+.learnmore-button{
+    
+        background-color: #702283 ;
+        margin-top:5px;
+        width: 110px;
+        border-radius: 8px;
+        color: white;
+        padding: 8px;
+        text-align: center;
+        
+}
+.webouns-img img{
+    width: 126px;
+    height: 61.91px;
+    margin-bottom: 40px;
+}
+.hr{
+    background-color:#702283;
+     height: 2px;
+     
+    
+}
+.footer{
+    background-color: #F3F3F3;
+}
+.footer-side a{
+    color: rgba(0, 0, 0, .5) !important;
+    text-decoration: none;
+    display: block;
+    font-size:14px;
+    letter-spacing:1px;
+    line-height:21px;
+    font-weight:300;
+    transition: all 0s;
+}
+.footer-side a :hover  {
+color:black !important;
+}
+h5{
+    color: #702283;
+    font-size:16px;
+    letter-spacing:1px;
+    font-weight:700;
+    margin-bottom: 20px;
+}
+.social{
+    font-size: 30px;
+    margin-right:5px ;
+    
+    
+}
+.facebook{
+    color: #3B5A99;
+}
+.youtube{
+    color: red;
+}
+.twitter{
+    color: #2AA9E0;
+}
+.instagram{
+color: #B53897;
+}
+.linkedin{
+color: #4097C5;
+}
+
+
+.footer-icons p{
+    color:#702283 ;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-align: center;
+}
+.footer-imgs p{
+    color:#702283 ;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-align: center;
+}
+.footer-img{
+    width: 261px;
+    height: 73px;
+}
+.fotter-img img{
+    width: 120px;
+    height: 40px;
+}
+.footer-caption{
+    background-color: #363636;
+    padding: 50px;
+    
+}
+.footer-caption p{
+    font-size:14px;
+    color:#959595;
+    line-height:21px;
+   letter-spacing:1px;
+    font-weight:300;
+   text-align: center;
+}
+.search-icon{
+    color: black !important;
+}
+.fixed-div a{
+    color: black !important;
+    text-decoration: none;
+
+}
+.fixed-div{
+    width: 135px;
+    border-radius:15px ;
+    border: 1px solid;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+}
+.fixed-div p{
+    margin-top: 15px;
+}
+
+
+ .mobile-hover{
+  width: 300px; 
+   background-color: whitesmoke;
+  position: absolute;
+  top: 125px;
+  right: 480px;
+ opacity: 0;
+  z-index: 1;
+  border-radius:5px;
+  padding: 5px;
+  transition: all 1.5s;
+}
+.mobile-hover a{
+    color: black !important;
+    text-decoration: none;
+    display: block;
+    font-size:14px;
+    letter-spacing:1px;
+    line-height:21px;
+    font-weight:300; 
+}
+.mobile-link-hover:hover .mobile-hover{
+  opacity: 1;
+} 
+
